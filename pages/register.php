@@ -19,14 +19,14 @@
 
 <h1>
 <?php
-//this how to print some data;
+//print some data;
 $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
 <h2>Register</h2>
 
 <form action="index.php?page=accounts&action=register" method="post">
-//<marquee><h1> TODO TASK REGISTRATION WELCOME YOU</h1></marquee>
+//<marquee><h1> TODO TASK REGISTRATION </h1></marquee>
     First name: <input type="text" name="fname" placeholder="first name"required><br>
     Last name: <input type="text" name="lname"placeholder="lastname" required><br>
     Email or username: <input type="email" name="email" placeholder="username"required><br>

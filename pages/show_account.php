@@ -18,7 +18,7 @@
 <body>
 <h1>
 <?php
-//this how to print some data;
+//print some data;
 $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
