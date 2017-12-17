@@ -14,4 +14,7 @@ body {
     background-repeat: repeat;
   
 }
-    
+    .btn-info{
+    background-color: Darkgray;
+    color: black;
+    }
