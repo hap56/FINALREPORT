@@ -12,7 +12,6 @@ self::getTemplate('show_account', $record);
 //to call the show function the url is index.php?page=accounts&action=all
 public static function all()
 {	
-//By IPE TEAM
 session_start();
 $userID = @$_SESSION["userID"];
 if(!$userID) 
@@ -24,7 +23,6 @@ self::getTemplate('all_accounts', $records);
 }
 public static function register()
 {
-//By IPE TEAM
 session_start();
 $userID = @$_SESSION["userID"];
 if($userID) {
