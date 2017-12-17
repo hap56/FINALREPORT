@@ -18,7 +18,7 @@
 <body>
 <h1>
 <?php
-//this how to print some data;
+//printing some data;
 $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
@@ -41,7 +41,7 @@ $user_data = accounts::findUserbyId($userID); ?>
 </ul>
 
 <?php
-//this is how you print something
+//print anything
 if(!empty($data)) {
 	print utility\htmlTable::genarateTableFromMultiArray($data);
 } else {
