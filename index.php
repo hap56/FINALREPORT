@@ -1,13 +1,14 @@
 <?php
 
-//displaying debugging messages 
+//turn on debugging messages
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
-//autoloader class to load all the different files on different pages
-include_once "autoload.php";
-//database details
-include_once "database.php";
-//starts a program.
-$response = http\processRequest::createResponse();
 
+//Autoloader class to load all the different pages
+include_once "autoload.php";
+
+//database credentials here
+include_once "database.php";
+//this starts the program as a static.
+$response = http\processRequest::createResponse();
 ?>
