@@ -14,4 +14,9 @@ body {
 background: url("https://cdn.dribbble.com/users/18771/screenshots/2123370/attachments/386242/code-design-ad.png");
 background-size: cover;
 }
- 
+
+.btn-info{
+background-color: Darkgray;
+color: black;
+}
+    
