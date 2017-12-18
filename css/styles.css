@@ -14,7 +14,6 @@ body {
 background: url("https://cdn.dribbble.com/users/18771/screenshots/2123370/attachments/386242/code-design-ad.png");
 background-size: cover;
 }
-
 .btn-info{
 background-color: Darkgray;
 color: black;
@@ -26,3 +25,23 @@ border-collapse: collapse;
 width: 100%;
 }
 
+td, th {
+border: 1px solid black;
+text-align: left;
+padding: 8px;    
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    }
+tr:nth-child(odd) {
+    background-color: #B0C4DE;
+}
