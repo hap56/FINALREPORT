@@ -8,7 +8,7 @@
     <meta name="description" content="WSD FINAL PROJECT">
     <meta name="author" content="SitePoint">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 
    
 </head>

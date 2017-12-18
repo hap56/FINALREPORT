@@ -8,23 +8,20 @@
     <meta name="description" content="WSD FINAL PROJECT">
     <meta name="author" content="SitePoint">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
 </head>
 
 <body>
 <h1>
 WSD FINAL PROJECT</h1>
-<h2>All Todos</h2>
+<h1>All Todos</h1>
 
 <?php
 $userID = $_SESSION["userID"];
 $user_data = accounts::findUserbyId($userID); ?>
 
-<h3>Hi <?=$user_data->fname?></h3>
+<h1>Hi <?=$user_data->fname?></h1>
 
 <ul>
 <li><a href="index.php?page=accounts&action=all">My Account</a>
