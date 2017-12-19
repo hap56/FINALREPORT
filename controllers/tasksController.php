@@ -45,7 +45,8 @@ $record->ownerid = $_SESSION['userID'];
 $record->createddate = date('Y-m-d');
 $record->updateddate = date('Y-m-d');
 $record->save();
-header("Location: index.php?page=tasks&action=edit&id=".$_REQUEST['id']);
+// directed to all todos
+header("Location: index.php?page=tasks&action=all");
 }
 public static function save() {
 $date = date('Y-m-d');
