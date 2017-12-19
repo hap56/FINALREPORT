@@ -23,8 +23,8 @@ WSD FINAL PROJECT
 
 <form action="index.php?page=accounts&action=login" method="POST">
     <div class="container">
-        <label><b>Username</b></label><br>
-        <input type="text" placeholder="Enter Username" name="email" required><br>
+        <label><b>Email id</b></label><br>
+        <input type="text" placeholder="Enter Email id" name="email" required><br>
 
         <label><b>Password</b></label><br>
         <input type="password" placeholder="Enter Password" name="password" required><br><br>
